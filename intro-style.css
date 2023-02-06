@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    max-width: 1440px;
+}
+
+
+.whole-nav {
+    height: 100px;
+    
+    display: flex;
+    gap: 50%;
+    padding-top: 35px;
+    padding-left: 50px;
+    
+    
+}
+
+.left-nav {
+    
+    width: 700px;
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+.right-nav {
+    display: flex;
+    gap: 50px;
+    transform: translateX(-70px);
+    
+    
+    
+}
+
+
+li {
+list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding-top: 30px;
+    
+}
+
+
+
+
+
+.container {
+    
+    width: 1000px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px;
+    position: relative;
+    left: 175px;
+}
+
+
+.left-box {
+    
+    width: 700px;
+    height: 575px;
+    padding-top: 50px;
+}
+
+
+.right-box {
+    
+    width: 500px;
+    height: 545px;
+    background-image: url('image-hero-desktop.png');
+    background-size: 405px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+/* .register {
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    padding-top: 10px;
+
+} */
+
+
+.first {
+    
+    padding-top: 20px;
+    font-size: 75px;
+    font-weight: 700;
+    
+}
+
+.second {
+    
+    line-height: 25px;
+    width: 485px;
+    height: 75px;
+    color: gray;
+    display: flex;
+    font-size: 18px;
+    
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+}
+
+.register {
+   
+    
+    
+    
+}
